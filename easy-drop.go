@@ -41,6 +41,7 @@ func downloadHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Respond with success
 	fmt.Fprintf(w, "File %s uploaded successfully.", filename)
 	fmt.Printf(" completed successfully.")
 }
