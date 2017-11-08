@@ -1,5 +1,5 @@
-hapi-dropzone
-=============
+easy-drop
+=========
 
 This is a simple implementation of DropzoneJS using Go's http library server-side.
 
