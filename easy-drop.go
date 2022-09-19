@@ -14,7 +14,7 @@ import (
 )
 
 // Globals
-var port = "8114"
+var port = "3767"
 
 // Handlers
 func downloadHandler(w http.ResponseWriter, r *http.Request) {

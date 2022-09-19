@@ -16,3 +16,14 @@ To set this project up:
 `go run easy-drop.go`
 
 Note: By default, files will be downloaded to the uploads directory included in this project.
+
+
+systemd service
+---------------
+Move `easydrop.service` to `/etc/systemd/system/easydrop.service`:
+
+```
+sudo mv easydrop.service /etc/systemd/system/easydrop.service
+sudo systemctl start easydrop.service 
+sudo systemctl enable easydrop.service
+```

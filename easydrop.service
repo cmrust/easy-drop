@@ -1,0 +1,13 @@
+[Unit]
+Description=easydrop service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=chris
+WorkingDirectory=/home/chris/bin/easy-drop
+ExecStart=/usr/bin/go run /home/chris/bin/easy-drop/easy-drop.go
+
+[Install]
+WantedBy=multi-user.target
